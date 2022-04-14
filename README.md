@@ -71,7 +71,16 @@ From github.com:wfbraga/dio-desafio-github-primeiro-repositorio
  * branch            main       -> FETCH_HEAD
 Already up-to-date.
 ```
-O output do nosso comando indica que 
+O output do nosso comando indica que não há nenhuma alteração no repositório remoto para ser puxada. Casou houvesse, produziria um output similar à mostrada abaixo. 
 
+```
+$ git pull origin main
+From github.com:wfbraga/dio-desafio-github-primeiro-repositorio
+ * branch            main       -> FETCH_HEAD
+Updating 0818a64..2a116d8
+Fast-forward
+ README.md | 74 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 73 insertions(+), 1 deletion(-)
+```
 ## Considerações Finais
 Esses são os comandos primordiais que um iniciante deve conhecer mais ainda muito por cobrir no futuro. Meu conselho e’ que pesquise como criar novas _branchs_ e usar _git reset_ que não foram cobertos nesse breve repositório.  
